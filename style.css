@@ -1,0 +1,156 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    color: #323f4b;
+    background-color: #ffffff;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #0a1f44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: linear-gradient(to right, #f7c59f, #f6eec7);
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    color: #183b56;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    color: #5a7184;
+    margin-bottom: 20px;
+  }
+  
+  .order-btn {
+    background-color: #d0b200;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .order-btn:hover {
+    background-color: #e6c200;
+  }
+  
+  /* Menu Section */
+  .menu {
+    padding: 60px 20px;
+    background-color: #f9fbfe;
+    text-align: center;
+  }
+  
+  .menu h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #183b56;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .menu-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+    width: 260px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .menu-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .menu-card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+    color: #323f4b;
+  }
+  
+  .menu-card p {
+    font-size: 14px;
+    color: #7b8794;
+  }
+  
+  /* Delivery Section */
+  .delivery {
+    padding: 60px 20px;
+    background-color: #e2f3f5;
+    text-align: center;
+  }
+  
+  .delivery h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #183b56;
+  }
+  
+  .delivery p {
+    font-size: 16px;
+    color: #5a7184;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #0a1f44;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
