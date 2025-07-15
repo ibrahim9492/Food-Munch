@@ -69,10 +69,6 @@ Contributions are welcome! Please open an issue or submit a pull request for imp
 
 Ibrahim Khalandar Shaik
 
-GitHub
-
-LinkedIn
-
 ⭐ Show Your Support
 
 If you like this project, give it a ⭐️ on GitHub!
